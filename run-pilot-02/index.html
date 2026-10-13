@@ -13,6 +13,7 @@ play.onclick=()=>{if(video.paused){if(video.ended)video.currentTime=0;video.play
 seek.oninput=()=>{video.currentTime=(+seek.value)/60;draw();};
 function step(d){video.pause();const f=Math.round(video.currentTime*60);video.currentTime=Math.max(0,Math.min(479,f+d))/60;draw();}
 document.getElementById('back').onclick=()=>step(-1);document.getElementById('next').onclick=()=>step(1);speed.onchange=()=>video.playbackRate=+speed.value;sound.onchange=()=>video.muted=!sound.checked;
-async function changeScene(e){const t=video.currentTime,playing=!video.paused;video.pause();video.src=document.getElementById('gear').value+'-'+document.getElementById('view').value+'.mp4';video.load();await new Promise(resolve=>video.addEventListener('loadedmetadata',resolve,{once:true}));video.currentTime=Math.min(t,video.duration);video.playbackRate=+speed.value;video.muted=!sound.checked;video.volume=.25;if(playing)await video.play();draw();}
+let sceneEpoch=0,pendingScene=null;
+function changeScene(){const state=pendingScene||{time:video.currentTime,playing:!video.paused};pendingScene=state;const epoch=++sceneEpoch;video.pause();video.addEventListener('loadedmetadata',()=>{if(epoch!==sceneEpoch)return;video.currentTime=Math.min(state.time,video.duration);video.playbackRate=+speed.value;video.muted=!sound.checked;video.volume=.25;pendingScene=null;if(state.playing)video.play();draw();},{once:true});video.src=document.getElementById('gear').value+'-'+document.getElementById('view').value+'.mp4';video.load();}
 document.getElementById('view').onchange=changeScene;document.getElementById('gear').onchange=changeScene;
 </script></html>
