@@ -1,0 +1,998 @@
+{
+  "gaits": {
+    "full": {
+      "views": {
+        "free-side": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000503158024
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.0000503158024
+            ],
+            "hand_l_native_peak_world": 1.8749942779541,
+            "hand_l_drop_from06_world": 0.05000764131546176,
+            "hand_r_native_peak_world": 1.8749852180481,
+            "hand_r_drop_from06_world": 0.05001608133315627
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd_Free",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd_Free",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "19c237369a7dd70c9b0ae0cce5bc86fe9f413546127732e5534120bf26ad28a7",
+          "mp4_bytes": 820451,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "free-front": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000503158024
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.0000503158024
+            ],
+            "hand_l_native_peak_world": 1.8749942779541,
+            "hand_l_drop_from06_world": 0.05000764131546176,
+            "hand_r_native_peak_world": 1.8749852180481,
+            "hand_r_drop_from06_world": 0.05001608133315627
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd_Free",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd_Free",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "c9b519e2bace748f699c37fd2d02bfb9faf86521c0e72fe73fea5ef741bee80b",
+          "mp4_bytes": 886914,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "free-game": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000503158024
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.0000503158024
+            ],
+            "hand_l_native_peak_world": 1.8749942779541,
+            "hand_l_drop_from06_world": 0.05000764131546176,
+            "hand_r_native_peak_world": 1.8749852180481,
+            "hand_r_drop_from06_world": 0.05001608133315627
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd_Free",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd_Free",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "821c9e2bd20f0ba63b36c630ecc1119076ba7a45e5b55389393df2f9d32a347c",
+          "mp4_bytes": 705221,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "sword-side": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "hand_l_native_peak_world": 1.52897381782532,
+            "hand_l_drop_from06_world": 0.0499997854232761,
+            "hand_r_native_peak_world": 1.52897334098816,
+            "hand_r_drop_from06_world": 0.05000026226043608
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "142f1f5e0ef2ff5cb1976bdf1693ad2b943771e4d7e056198551ce46d76f32c6",
+          "mp4_bytes": 859763,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "sword-front": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "hand_l_native_peak_world": 1.52897381782532,
+            "hand_l_drop_from06_world": 0.0499997854232761,
+            "hand_r_native_peak_world": 1.52897334098816,
+            "hand_r_drop_from06_world": 0.05000026226043608
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "e5bad87099ebfcb07b6b404fd633a6d32f97fb2a25b128c3943829efaf58a5e2",
+          "mp4_bytes": 888588,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "sword-game": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "hand_l_native_peak_world": 1.52897381782532,
+            "hand_l_drop_from06_world": 0.0499997854232761,
+            "hand_r_native_peak_world": 1.52897334098816,
+            "hand_r_drop_from06_world": 0.05000026226043608
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "7a4548ff40168f7de73a80b33dc056b70e5abb1e273b6dab7a11dbf85503952c",
+          "mp4_bytes": 705804,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "shield-side": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "hand_l_native_peak_world": 1.54739487171173,
+            "hand_l_drop_from06_world": 0.050000262260437855,
+            "hand_r_native_peak_world": 1.52897334098816,
+            "hand_r_drop_from06_world": 0.05000026226043608
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd_Shield",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd_Shield",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "cd34d141763ab4951d6e462a5dbe31cfa7995521c8a6a71fed2dc53dd8bd2263",
+          "mp4_bytes": 885549,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "shield-front": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "hand_l_native_peak_world": 1.54739487171173,
+            "hand_l_drop_from06_world": 0.050000262260437855,
+            "hand_r_native_peak_world": 1.52897334098816,
+            "hand_r_drop_from06_world": 0.05000026226043608
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd_Shield",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd_Shield",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "ca8572610fde85cc82e5b4a45f2c9a14fbdf3d754cc07c5ced82e9d9cc9f6c75",
+          "mp4_bytes": 919339,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "shield-game": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743199589637e-07,
+            "spine_03_world_height_range": 0.0004233121872001533,
+            "pelvis_world_height_range": 0.000974774360660069,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "hand_l_native_peak_world": 1.54739487171173,
+            "hand_l_drop_from06_world": 0.050000262260437855,
+            "hand_r_native_peak_world": 1.52897334098816,
+            "hand_r_drop_from06_world": 0.05000026226043608
+          },
+          "actual_clip_rate": 1.331145405769346,
+          "cadence_steps_per_minute": 169.9334560556612,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 5,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [
+            {
+              "clip_time": 0.0,
+              "event": {
+                "kind": "run_started",
+                "payload": {
+                  "actor_id": 1
+                },
+                "tick": 10
+              },
+              "frame": 32,
+              "hero_clip": "Jog_Fwd_Shield",
+              "seconds": 0.533333333333333
+            }
+          ],
+          "run_stopped": [
+            {
+              "clip_time": 0.142284299135202,
+              "event": {
+                "kind": "run_stopped",
+                "payload": {
+                  "actor_id": 1,
+                  "cause": "arrived"
+                },
+                "tick": 111
+              },
+              "frame": 335,
+              "hero_clip": "Jog_Fwd_Shield",
+              "seconds": 5.58333333333333
+            }
+          ],
+          "run_samples": 303,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "b272c6c9775440d8d873ad9eccc7e537864ba030b5b73b4106c546cffe8beaea",
+          "mp4_bytes": 712046,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        }
+      },
+      "script_sha256": "b3b3a15f74177e55e372979816769f4cdbbfb4d2af2abb44c07a53bd5a3554ba",
+      "driver_settings_sha256": "f13c641233c51bd46bc40200bf5a8be8c8aef536195ba11c2b16def8ee910dd1",
+      "candidate_library_sha256": "f65961fdeedbf0d25bc0d90ab7e51beb54fdee2337984368a3523563bf95d17e",
+      "catalog_sha256": "072511bb27967a5faf8295ddd2a57252b5a01ec2f727b8c2cd4dcd6e6d3be09d",
+      "actual_game_library_sha256": "e28dfa5469a08f1a661b9e10d3a75fab036c5f179a260aac1e218c809867bc8d",
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091",
+      "new_player_clock": "native video PTS at60fps; video and audio in the same MP4",
+      "marker_bits": 9,
+      "single_recorder_no_parent": true,
+      "clock": "render_pre_draw drives SimWorld fixed60Hz and real AnimationPlayer manual advance; allnativeframes checked, no interpolation",
+      "converter_sha256": "98b88f62fc9228d9f49c66c7bc1b0d2d5df87cc1a80917fe56b264c61fb29428",
+      "orchestrator_sha256": "ab24c7f8d60863d4368b8a484524f2d0075d121594ef39312a181b403b692501"
+    },
+    "jog": {
+      "views": {
+        "free-side": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "d6b0e50a94bf95a5e053c22d0e5ae1cf1d15be05587631440b0d172a9174aacf",
+          "mp4_bytes": 867883,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "free-front": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "a1a3207e5ca75f4acaa02249a3849a3f1515e5c3c588be445762030e85fd1ac2",
+          "mp4_bytes": 938287,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "free-game": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "87b3cfd038dc29d4a0ba0355e400a4cebb28d0c601432f1ae5aa4f6335116854",
+          "mp4_bytes": 778795,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "sword-side": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "4827aa8a155aa5c58f233bafb5cdc3fa3545991e76a93a554d72ba1833a76adf",
+          "mp4_bytes": 930102,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "sword-front": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "2f4824b4f0b96d662d34f5eea0eec71ecdfb75059f0f0d8d09a5009547b0ea5c",
+          "mp4_bytes": 952951,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "sword-game": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "a77d8c3a927ce772c1aae7c1e1895c461db5550df465ad1bd25db493ff69645a",
+          "mp4_bytes": 788211,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "shield-side": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "b9c3c467df6e2c7095f6b453fad7ee4dce54088d954f004a028308a3b184bd06",
+          "mp4_bytes": 950975,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "shield-front": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "c0aaeb137d02ec2b074397442626ccf466b95ca0196c695dce014d0af43e5fb6",
+          "mp4_bytes": 982339,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        },
+        "shield-game": {
+          "native_pose_after_modifiers": {
+            "Head_world_height_range": 9.536743097449119e-07,
+            "spine_03_world_height_range": 0.00044775009155006984,
+            "pelvis_world_height_range": 0.001024603843689853,
+            "l_elbow_range": [
+              89.9999751837215,
+              90.0000434856132
+            ],
+            "r_elbow_range": [
+              89.9999751837215,
+              90.000036655424
+            ]
+          },
+          "actual_clip_rate": 1.3308006525039673,
+          "cadence_steps_per_minute": 169.88944500050647,
+          "native_frames": 480,
+          "fps": 60,
+          "first_native_frame": 4,
+          "movie_duration": 8,
+          "decoded_frames": 480,
+          "audio_duration": 8.0,
+          "run_started": [],
+          "run_stopped": [],
+          "run_samples": 408,
+          "final_position": [
+            4,
+            20
+          ],
+          "mp4_sha256": "98fffb5c8340ab90d3d6c613670119613e6053f435f4fcc3f519d123ecb533f5",
+          "mp4_bytes": 787753,
+          "frames_are_native": true,
+          "frame_interpolation": false
+        }
+      },
+      "script_sha256": "f75e20fd2653c45784db5ef6dc0852a4e26adff2c21cb62940e5531480e928e7",
+      "driver_settings_sha256": "f13c641233c51bd46bc40200bf5a8be8c8aef536195ba11c2b16def8ee910dd1",
+      "candidate_library_sha256": "95f89dc2cee52ebc4bb6e92df91f977a2679260f37ef07400d720f05577dd21a",
+      "catalog_sha256": "e24d66d3887c001b2f662c74e6f0f5872a73b90d73f5c4288d6129df4ffd6cb4",
+      "actual_game_library_sha256": "e28dfa5469a08f1a661b9e10d3a75fab036c5f179a260aac1e218c809867bc8d",
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091",
+      "new_player_clock": "native video PTS at60fps; video and audio in the same MP4",
+      "marker_bits": 9,
+      "single_recorder_no_parent": true,
+      "clock": "render_pre_draw drives SimWorld fixed60Hz and real AnimationPlayer manual advance; allnativeframes checked, no interpolation",
+      "converter_sha256": "0fa8b75c05b0179a33dab8c5f119dea32b70c1bfa6173afd7f0124f8d75e6443",
+      "orchestrator_sha256": "eb157373170a11292bbaefea7e7f87e9a378728a9e5538b9572db23770e05238"
+    }
+  },
+  "jog_reuse": {
+    "source_head": "c6e08633a32538e50254756d98d0e57e4282a102",
+    "source": "docs/quality/examples/run-pace-source/jog",
+    "view": "docs/quality/examples/run-pace-view",
+    "native_capture": "historical candidate4, no new jog native recording",
+    "files": [
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-free-front.mp4",
+        "bytes": 938287,
+        "sha256": "a1a3207e5ca75f4acaa02249a3849a3f1515e5c3c588be445762030e85fd1ac2"
+      },
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-free-game.mp4",
+        "bytes": 778795,
+        "sha256": "87b3cfd038dc29d4a0ba0355e400a4cebb28d0c601432f1ae5aa4f6335116854"
+      },
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-free-side.mp4",
+        "bytes": 867883,
+        "sha256": "d6b0e50a94bf95a5e053c22d0e5ae1cf1d15be05587631440b0d172a9174aacf"
+      },
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-shield-front.mp4",
+        "bytes": 982339,
+        "sha256": "c0aaeb137d02ec2b074397442626ccf466b95ca0196c695dce014d0af43e5fb6"
+      },
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-shield-game.mp4",
+        "bytes": 787753,
+        "sha256": "98fffb5c8340ab90d3d6c613670119613e6053f435f4fcc3f519d123ecb533f5"
+      },
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-shield-side.mp4",
+        "bytes": 950975,
+        "sha256": "b9c3c467df6e2c7095f6b453fad7ee4dce54088d954f004a028308a3b184bd06"
+      },
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-sword-front.mp4",
+        "bytes": 952951,
+        "sha256": "2f4824b4f0b96d662d34f5eea0eec71ecdfb75059f0f0d8d09a5009547b0ea5c"
+      },
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-sword-game.mp4",
+        "bytes": 788211,
+        "sha256": "a77d8c3a927ce772c1aae7c1e1895c461db5550df465ad1bd25db493ff69645a"
+      },
+      {
+        "file": "docs/quality/examples/run-pace-view/jog-sword-side.mp4",
+        "bytes": 930102,
+        "sha256": "4827aa8a155aa5c58f233bafb5cdc3fa3545991e76a93a554d72ba1833a76adf"
+      }
+    ]
+  }
+}
