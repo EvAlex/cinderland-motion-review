@@ -1,0 +1,1166 @@
+{
+  "scenario": "constructed passive-target arena; production catalog and library; initial stamina16",
+  "videos": {
+    "free-side": {
+      "label": "free-side",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "82ee547b834d5813101013c264eb7ca4ddb3c69b5dc4bdbf8c253e1121d0ecf7",
+      "mp4_bytes": 1463650,
+      "invocation_sha256": "31de4927c41b251f1bad09ee8809929371ab94f395c1408c1e2f128736eb9c33",
+      "timeline_sha256": "286621033ba0a85d0c0e18fdce2baf5f5d98574f13b5864f3cd251f0f9bed990",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd_Free",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd_Free",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd_Free",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Punch_Jab",
+          "clip_time": 0.014166667064031
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Punch_Cross",
+          "clip_time": 0.0149999996026357
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Punch_Jab",
+          "clip_time": 0.014166667064031
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd_Free": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd_Free": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    },
+    "free-front": {
+      "label": "free-front",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "c4231d10bba7f33a6bf8c863c958d336f0c16ae376d04ccc737c1fd355a125dd",
+      "mp4_bytes": 1596869,
+      "invocation_sha256": "c41e5711741af8c9c2e0ef5c8c956908be29dbd7e3e3c2639100791246578a01",
+      "timeline_sha256": "286621033ba0a85d0c0e18fdce2baf5f5d98574f13b5864f3cd251f0f9bed990",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd_Free",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd_Free",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd_Free",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Punch_Jab",
+          "clip_time": 0.014166667064031
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Punch_Cross",
+          "clip_time": 0.0149999996026357
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Punch_Jab",
+          "clip_time": 0.014166667064031
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd_Free": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd_Free": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    },
+    "sword-side": {
+      "label": "sword-side",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "07e5968d41a4cc5f80d6294d73e9591334e23fb6cb0eb81f40b675311d42e54c",
+      "mp4_bytes": 1668288,
+      "invocation_sha256": "83ce020be274c0ada7657bbc77108544ff868e224e47d75f86f50260459cb576",
+      "timeline_sha256": "eae6d4c46de4136d07b31a8a85acdcbe96a8d899de33a7bbe1900703f08507dd",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Sword_Regular_A",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 450,
+          "seconds": 7.5,
+          "clip": "Sword_Regular_A_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Sword_Regular_B",
+          "clip_time": 0.0180000007152557
+        },
+        {
+          "frame": 514,
+          "seconds": 8.56666666666667,
+          "clip": "Sword_Regular_B_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Sword_Regular_C",
+          "clip_time": 0.0666666666666667
+        },
+        {
+          "frame": 597,
+          "seconds": 9.95,
+          "clip": "Sword_Idle",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    },
+    "shield-side": {
+      "label": "shield-side",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "7bfcb06bc40f1612b8186060e700ada72a7e344e3cb7473db0b072a852b2b1af",
+      "mp4_bytes": 1810213,
+      "invocation_sha256": "20ac6368910a8236992a603610d3de99668fc2835451546acb98de1ab6ba294d",
+      "timeline_sha256": "921db8f74370c96c14ab012e973f0325e56eb2d6b67cacea1cf3f16f20451235",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd_Shield",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd_Shield",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd_Shield",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Sword_Regular_A",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 450,
+          "seconds": 7.5,
+          "clip": "Sword_Regular_A_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Sword_Regular_B",
+          "clip_time": 0.0180000007152557
+        },
+        {
+          "frame": 514,
+          "seconds": 8.56666666666667,
+          "clip": "Sword_Regular_B_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Sword_Regular_C",
+          "clip_time": 0.0666666666666667
+        },
+        {
+          "frame": 597,
+          "seconds": 9.95,
+          "clip": "Idle_Shield",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd_Shield": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd_Shield": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    },
+    "shield-front": {
+      "label": "shield-front",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "8d9c16b87b8e5415cd69de9707d53b4fd4b34dceb28435cea0e55d406893dbdd",
+      "mp4_bytes": 1817616,
+      "invocation_sha256": "2b8d017d0cb1dffa1dae8062dbd2bd4ae346abf656251dda40fd588253080537",
+      "timeline_sha256": "921db8f74370c96c14ab012e973f0325e56eb2d6b67cacea1cf3f16f20451235",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd_Shield",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd_Shield",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd_Shield",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Sword_Regular_A",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 450,
+          "seconds": 7.5,
+          "clip": "Sword_Regular_A_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Sword_Regular_B",
+          "clip_time": 0.0180000007152557
+        },
+        {
+          "frame": 514,
+          "seconds": 8.56666666666667,
+          "clip": "Sword_Regular_B_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Sword_Regular_C",
+          "clip_time": 0.0666666666666667
+        },
+        {
+          "frame": 597,
+          "seconds": 9.95,
+          "clip": "Idle_Shield",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd_Shield": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd_Shield": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    },
+    "free-game": {
+      "label": "free-game",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "614153004faf5748b3b461e44cebb827ceee9954dcf0bb40c4c6659f02769e01",
+      "mp4_bytes": 1443792,
+      "invocation_sha256": "a692250537142e9fe1b9176cdc8c93a6ffedc06fb14dde0a7d35f129c6eed14b",
+      "timeline_sha256": "286621033ba0a85d0c0e18fdce2baf5f5d98574f13b5864f3cd251f0f9bed990",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd_Free",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd_Free",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd_Free",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Punch_Jab",
+          "clip_time": 0.014166667064031
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Punch_Cross",
+          "clip_time": 0.0149999996026357
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Punch_Jab",
+          "clip_time": 0.014166667064031
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd_Free",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd_Free": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd_Free": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    },
+    "sword-game": {
+      "label": "sword-game",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "fac5757c7e9e414c2f9712b33f6dd73952862f23ec455fa7ba90f94101e10efe",
+      "mp4_bytes": 1460980,
+      "invocation_sha256": "2962512c0db59de1884f510e3623c852d99e296ccc6f6b59a3353f175d0dc449",
+      "timeline_sha256": "eae6d4c46de4136d07b31a8a85acdcbe96a8d899de33a7bbe1900703f08507dd",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Sword_Regular_A",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 450,
+          "seconds": 7.5,
+          "clip": "Sword_Regular_A_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Sword_Regular_B",
+          "clip_time": 0.0180000007152557
+        },
+        {
+          "frame": 514,
+          "seconds": 8.56666666666667,
+          "clip": "Sword_Regular_B_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Sword_Regular_C",
+          "clip_time": 0.0666666666666667
+        },
+        {
+          "frame": 597,
+          "seconds": 9.95,
+          "clip": "Sword_Idle",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    },
+    "sword-front": {
+      "label": "sword-front",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "5a58be2bf1c58de0a0df1e20ebbb369e888ffcafed86523a6dd27c8e74c63b8e",
+      "mp4_bytes": 1733022,
+      "invocation_sha256": "ddf5d7a664f4d8f3b7a13a219205f8a40b4eb9f6a460d32ce4e28139e11683ac",
+      "timeline_sha256": "eae6d4c46de4136d07b31a8a85acdcbe96a8d899de33a7bbe1900703f08507dd",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Sword_Regular_A",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 450,
+          "seconds": 7.5,
+          "clip": "Sword_Regular_A_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Sword_Regular_B",
+          "clip_time": 0.0180000007152557
+        },
+        {
+          "frame": 514,
+          "seconds": 8.56666666666667,
+          "clip": "Sword_Regular_B_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Sword_Regular_C",
+          "clip_time": 0.0666666666666667
+        },
+        {
+          "frame": 597,
+          "seconds": 9.95,
+          "clip": "Sword_Idle",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    },
+    "shield-game": {
+      "label": "shield-game",
+      "native_frames": 840,
+      "fps": 60,
+      "duration": 14,
+      "first_native_frame": 3,
+      "decoded_frames": 840,
+      "audio_duration": 13.994666666666667,
+      "mp4_sha256": "7ce80beffb14c21d53eab41e41cf38e70dc2f1ee964d2a0f3901b2579837c9b2",
+      "mp4_bytes": 1468960,
+      "invocation_sha256": "488289239c2beb7a709f6cb3ebf2e20667485cfbe038632a6dba74421e34a220",
+      "timeline_sha256": "921db8f74370c96c14ab012e973f0325e56eb2d6b67cacea1cf3f16f20451235",
+      "run_started": [
+        {
+          "clip_time": 0.390800652503968,
+          "event": {
+            "kind": "run_started",
+            "payload": {
+              "actor_id": 1
+            },
+            "tick": 30
+          },
+          "frame": 92,
+          "hero_clip": "Run_Fwd_Shield",
+          "seconds": 1.53333333333333
+        }
+      ],
+      "run_stopped": [
+        {
+          "clip_time": 0.807512248754496,
+          "event": {
+            "kind": "run_stopped",
+            "payload": {
+              "actor_id": 1,
+              "cause": "exhausted"
+            },
+            "tick": 121
+          },
+          "frame": 365,
+          "hero_clip": "Run_Fwd_Shield",
+          "seconds": 6.08333333333333
+        }
+      ],
+      "clip_transitions": [
+        {
+          "frame": 0,
+          "seconds": 0.0,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 32,
+          "seconds": 0.533333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 92,
+          "seconds": 1.53333333333333,
+          "clip": "Run_Fwd_Shield",
+          "clip_time": 0.41298640926679
+        },
+        {
+          "frame": 368,
+          "seconds": 6.13333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.896249529918029
+        },
+        {
+          "frame": 425,
+          "seconds": 7.08333333333333,
+          "clip": "Sword_Regular_A",
+          "clip_time": 0.0166666666666667
+        },
+        {
+          "frame": 450,
+          "seconds": 7.5,
+          "clip": "Sword_Regular_A_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 485,
+          "seconds": 8.08333333333333,
+          "clip": "Sword_Regular_B",
+          "clip_time": 0.0180000007152557
+        },
+        {
+          "frame": 514,
+          "seconds": 8.56666666666667,
+          "clip": "Sword_Regular_B_Rec",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 545,
+          "seconds": 9.08333333333333,
+          "clip": "Sword_Regular_C",
+          "clip_time": 0.0666666666666667
+        },
+        {
+          "frame": 597,
+          "seconds": 9.95,
+          "clip": "Idle_Shield",
+          "clip_time": 0.0
+        },
+        {
+          "frame": 602,
+          "seconds": 10.0333333333333,
+          "clip": "Cinderland_Jog_Fwd_Shield",
+          "clip_time": 0.0221800108750661
+        },
+        {
+          "frame": 743,
+          "seconds": 12.3833333333333,
+          "clip": "Idle",
+          "clip_time": 0.0166666666666667
+        }
+      ],
+      "native_pose": {
+        "Cinderland_Jog_Fwd_Shield": {
+          "samples": 192,
+          "cadence": 168.64168432089804,
+          "Head_lateral_range": 0.006648302078250179,
+          "spine_03_lateral_range": 0.001981019973759768,
+          "pelvis_lateral_range": 0.0
+        },
+        "Run_Fwd_Shield": {
+          "samples": 254,
+          "cadence": 169.93345605566105
+        }
+      },
+      "catalog": "production_no_overrides",
+      "frames_are_native": true,
+      "frame_interpolation": false,
+      "ffmpeg_executable_sha256": "8e1c29b500b77704d3d11910946da1a1171511deb7e75adaddd8639625563091"
+    }
+  }
+}
