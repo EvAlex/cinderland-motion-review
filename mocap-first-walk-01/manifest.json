@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "mocap_public",
+  "action": "walk",
+  "title": "Mixamo — ходьба с мечом и щитом",
+  "candidate_sha256": "8e5a995fd5c7f67f722c4e4f6540c7826c9adb79efb53f03ee7cd5101fd353a7",
+  "presentation_status": "ready",
+  "metric_status": "fail",
+  "author_status": "needs_decision",
+  "source": {
+    "provider": "Adobe Mixamo",
+    "id": "122650901",
+    "title": "Sword And Shield Walk",
+    "url": "https://www.mixamo.com/#/?query=sword+and+shield"
+  },
+  "media": [
+    {
+      "view": "front",
+      "file": "media/front.mp4",
+      "sha256": "be3fd03dec6ce7e06386b74571a047cd48c23fad0f6bf1f0c3fe20f1bf121681",
+      "fps": 60,
+      "frames": 241
+    },
+    {
+      "view": "side",
+      "file": "media/side.mp4",
+      "sha256": "1c6512ac2ecb64b7ed40ff4fcee08dd3d130948d18205fbc31771a9cc71925d4",
+      "fps": 60,
+      "frames": 241
+    },
+    {
+      "view": "game",
+      "file": "media/game.mp4",
+      "sha256": "f7850202933a2b3033323e134e10ad2e08f965e2ea82a9366e27d1e5c743f921",
+      "fps": 60,
+      "frames": 241
+    }
+  ],
+  "clock": {
+    "duration": 1.08333333333333,
+    "speed_scale": 1.385582447052
+  },
+  "diagnostics": {
+    "continuity": "not_run",
+    "sole_contact": "not_run",
+    "joints": "not_run",
+    "phase": "not_run",
+    "sway": "not_run",
+    "equipment": "fail"
+  },
+  "integrity_status": "pass",
+  "inventory": {
+    "index.html": "59829fdb1f506cc054b61300d7534a57086b41af315281355445f3e1076146ad",
+    "media/front.mp4": "be3fd03dec6ce7e06386b74571a047cd48c23fad0f6bf1f0c3fe20f1bf121681",
+    "media/game.mp4": "f7850202933a2b3033323e134e10ad2e08f965e2ea82a9366e27d1e5c743f921",
+    "media/side.mp4": "1c6512ac2ecb64b7ed40ff4fcee08dd3d130948d18205fbc31771a9cc71925d4"
+  }
+}
