@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "mocap_public",
+  "action": "run",
+  "title": "Mixamo — бег с мечом и щитом",
+  "candidate_sha256": "8e5a995fd5c7f67f722c4e4f6540c7826c9adb79efb53f03ee7cd5101fd353a7",
+  "presentation_status": "ready",
+  "metric_status": "fail",
+  "author_status": "needs_decision",
+  "source": {
+    "provider": "Adobe Mixamo",
+    "title": "Sword And Shield Run",
+    "id": "122660901",
+    "url": "https://www.mixamo.com/#/?query=sword+and+shield"
+  },
+  "media": [
+    {
+      "view": "front",
+      "file": "media/front.mp4",
+      "sha256": "e634d82aabee7d24faa98e33ad7a2ed9c5583c410e6291d231ead551b574feee",
+      "fps": 60,
+      "frames": 241
+    },
+    {
+      "view": "side",
+      "file": "media/side.mp4",
+      "sha256": "1cd17a97237452afa27f1a09946038faf055eb6cca6f86da74bc91a4cdb98bbf",
+      "fps": 60,
+      "frames": 241
+    },
+    {
+      "view": "game",
+      "file": "media/game.mp4",
+      "sha256": "ffdf40aaaa68563a57c1c63b243a8b11c7753e2bb4c3ba064f869472644935c8",
+      "fps": 60,
+      "frames": 241
+    }
+  ],
+  "clock": {
+    "duration": 0.7,
+    "speed_scale": 0.680781662464142
+  },
+  "diagnostics": {
+    "continuity": "not_run",
+    "sole_contact": "not_run",
+    "joints": "not_run",
+    "phase": "not_run",
+    "sway": "not_run",
+    "equipment": "fail"
+  },
+  "integrity_status": "pass",
+  "inventory": {
+    "index.html": "8519ad070801b0c718cb7b5e7e235f7b227da8a689146aca79655ad3a99b7555",
+    "media/front.mp4": "e634d82aabee7d24faa98e33ad7a2ed9c5583c410e6291d231ead551b574feee",
+    "media/game.mp4": "ffdf40aaaa68563a57c1c63b243a8b11c7753e2bb4c3ba064f869472644935c8",
+    "media/side.mp4": "1cd17a97237452afa27f1a09946038faf055eb6cca6f86da74bc91a4cdb98bbf"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "mocap_public",
+  "action": "attack",
+  "title": "Mixamo — одиночный удар мечом со щитом",
+  "candidate_sha256": "8e5a995fd5c7f67f722c4e4f6540c7826c9adb79efb53f03ee7cd5101fd353a7",
+  "presentation_status": "ready",
+  "metric_status": "fail",
+  "author_status": "needs_decision",
+  "source": {
+    "provider": "Adobe Mixamo",
+    "id": "122790901",
+    "title": "Sword And Shield Cross Slash",
+    "url": "https://www.mixamo.com/#/?query=sword+and+shield"
+  },
+  "media": [
+    {
+      "view": "front",
+      "file": "media/front.mp4",
+      "sha256": "d8fac8620c9db2992263f7ad23add6cafccd3f4a98a2c81976f7434ee78e0637",
+      "fps": 60,
+      "frames": 101
+    },
+    {
+      "view": "side",
+      "file": "media/side.mp4",
+      "sha256": "ca6deeb6ecf68d429730671b880265bb26b94118594427bbb19889ae8e08b20d",
+      "fps": 60,
+      "frames": 101
+    },
+    {
+      "view": "game",
+      "file": "media/game.mp4",
+      "sha256": "8eb2c9ac8acb40830cd804155c3e273864bffddff356b2416fb358d7bf61649a",
+      "fps": 60,
+      "frames": 101
+    }
+  ],
+  "clock": {
+    "duration": 1.66666666666667,
+    "speed_scale": 1.0
+  },
+  "diagnostics": {
+    "continuity": "not_run",
+    "sole_contact": "not_run",
+    "joints": "not_run",
+    "phase": "not_run",
+    "sway": "not_run",
+    "equipment": "fail"
+  },
+  "integrity_status": "pass",
+  "inventory": {
+    "index.html": "f836befc819be3a99cf96a388d51b041c2e85fdff665d139ad906ac4948f0f2a",
+    "media/front.mp4": "d8fac8620c9db2992263f7ad23add6cafccd3f4a98a2c81976f7434ee78e0637",
+    "media/game.mp4": "8eb2c9ac8acb40830cd804155c3e273864bffddff356b2416fb358d7bf61649a",
+    "media/side.mp4": "ca6deeb6ecf68d429730671b880265bb26b94118594427bbb19889ae8e08b20d"
+  }
+}
