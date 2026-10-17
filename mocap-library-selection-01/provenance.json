@@ -1,0 +1,59 @@
+{
+  "purpose": "Source-library visual selection; not Cinderland runtime animation acceptance",
+  "date": "2026-10-17",
+  "source": "Carnegie Mellon University Graphics Lab Motion Capture Database",
+  "source_page": "https://mocap.cs.cmu.edu/search.php?subjectnumber=143",
+  "format_reference": "https://research.cs.wisc.edu/graphics/Courses/cs-838-1999/Jeff/ASF-AMC.html",
+  "units_m_per_asf_unit": 0.05644444444444445,
+  "sample_rate_hz": 120,
+  "processing": "ASF/AMC forward kinematics, all source frames; positions rounded to 4 decimal meters; playback repeats entire recording without seam correction. Camera follows horizontal root only; no retarget, smoothing or authored motion.",
+  "files": {
+    "cmu-run.amc": {
+      "url": "https://mocap.cs.cmu.edu/subjects/143/143_01.amc",
+      "sha256": "021bc69edce5ca9272ec71de6e38bb9bf2984d9467798467dc47858c7e86f795",
+      "frames": 100,
+      "seconds": 0.8333333333333334,
+      "max_bone_length_error_m": 1.1997035204158735e-07
+    },
+    "cmu-walk.amc": {
+      "url": "https://mocap.cs.cmu.edu/subjects/143/143_32.amc",
+      "sha256": "1436c4f0a9a132f4950b93aa43f639681120d86d01d57de9dcca86c53ff2a473",
+      "frames": 780,
+      "seconds": 6.5,
+      "max_bone_length_error_m": 1.1997035204158735e-07
+    },
+    "cmu-punch.amc": {
+      "url": "https://mocap.cs.cmu.edu/subjects/143/143_23.amc",
+      "sha256": "972ce9032d7990826df0364de474832396c4aae508596f1925d3a270fa130046",
+      "frames": 814,
+      "seconds": 6.783333333333333,
+      "max_bone_length_error_m": 1.199703519860762e-07
+    },
+    "cmu143.asf": {
+      "url": "https://mocap.cs.cmu.edu/subjects/143/143.asf",
+      "sha256": "6d7207da3bb9eceeaa32f23fb641b69f5836d11242b00c052e7d64f0cbe20a35"
+    }
+  },
+  "renderer_sha256": "0b9cb1afc1fd2c736c44f533a26b4da0aec8bcf887f577e5e0e17e71fc083665",
+  "previews": {
+    "mixamo": {
+      "origin": "https://www.mixamo.com/",
+      "running": "https://d99n9xvb9513w.cloudfront.net/thumbnails/motions/118090901/animated.gif",
+      "walking_with_a_swagger": "https://d99n9xvb9513w.cloudfront.net/thumbnails/motions/118080901/animated.gif",
+      "four_punch_combo": "https://d99n9xvb9513w.cloudfront.net/thumbnails/motions/113830902/animated.gif",
+      "access": "Public vendor preview URLs observed in live catalogue DOM; hotlinked, raw animation files not copied"
+    },
+    "rokoko": {
+      "origin": "https://support.rokoko.com/hc/en-us/articles/4410021302417-What-is-The-Motion-Library",
+      "preview": "https://support.rokoko.com/hc/article_attachments/4410029894801",
+      "access": "Vendor UI demonstration, not individual clip acquisition; hotlinked"
+    }
+  },
+  "checks": {
+    "frame_ids": "all continuous from 1",
+    "coverage": "100/780/814 frames, respectively, no dropped source frames",
+    "geometry": "all finite; constant bone lengths max error < 0.000001 m before rounding",
+    "browser": "all 3 Mixamo preview selectors, CMU 3 clips, side view, pause and last-frame seek; no console warnings/errors observed",
+    "phone": "390x844 viewport, body scrollWidth=390; Mixamo and Rokoko images loaded"
+  }
+}
