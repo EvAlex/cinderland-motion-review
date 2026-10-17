@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Быстрый бег: принятый вариант и перенос MIL</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#1e211f;color:#f0f1e9;font:16px system-ui;line-height:1.45}main{max-width:1080px;margin:auto;padding:20px}h1{font-size:clamp(22px,4vw,30px);line-height:1.2;margin:0 0 12px}p{max-width:850px;color:#c9cec6}.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}button,select{font:inherit;padding:10px 12px;border:1px solid #657365;border-radius:8px;background:#303b32;color:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #d3da93;outline-offset:3px}button:disabled{opacity:.5;cursor:wait}.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}figure{margin:0;background:#2b302d;border:1px solid #414b44;border-radius:12px;overflow:hidden}figcaption{padding:12px 14px;font-weight:650;background:#364139}figcaption small{display:block;font-weight:400;color:#cad4c9}video{width:100%;aspect-ratio:1;object-fit:cover;object-position:top;display:block;background:#52565b}.timeline{margin:14px 0}input[type=range]{width:100%;accent-color:#c0cc8c}output{font-variant-numeric:tabular-nums;display:block;min-height:24px;color:#d3dccb}.note{padding:12px 14px;border-left:3px solid #9d9c68;background:#2c3029;font-size:14px}details{margin-top:18px;color:#bdc6bc;font-size:14px}summary{cursor:pointer}a{color:#dde6b6}@media(max-width:620px){main{padding:14px}.pair{gap:8px}figcaption{padding:8px;font-size:13px}figcaption small{font-size:11px}.controls{position:sticky;top:0;background:#1e211ff5;padding:8px 0;z-index:2}button,select{padding:8px}}
+</style>
+<main><h1>Быстрый бег: принятый вариант и перенос MIL</h1>
+<p>Принятый быстрый бег №16 рядом с перенесённым Sprint. Одна игровая модель, одинаковые одежда, свет и камера. Темп каждого клипа — игровой; фазы не подгонялись друг под друга.</p>
+<div class="controls">
+<button id="play" disabled>Загрузка…</button>
+<select id="gear" aria-label="Снаряжение"><option value="free">Без оружия</option><option value="sword">С мечом</option><option value="shield">С мечом и щитом</option></select>
+<select id="view" aria-label="Ракурс"><option value="side">Сбоку</option><option value="front">Спереди</option><option value="game">Игровая камера</option></select>
+<select id="speed" aria-label="Темп просмотра"><option value="1">Обычный темп</option><option value="0.5">½ темпа</option><option value="0.25">¼ темпа</option></select>
+<button id="back" disabled aria-label="Предыдущий кадр">◀ Кадр</button><button id="next" disabled aria-label="Следующий кадр">Кадр ▶</button>
+<label><input id="large" type="checkbox"> Крупно</label>
+</div>
+<div class="pair">
+<figure><figcaption>Принятый бег <small>Быстрый бег №16 · сейчас в игре</small></figcaption><video id="accepted" playsinline muted preload="auto" aria-label="Принятый быстрый бег"></video></figure>
+<figure><figcaption>Перенос MIL <small>UAL1 Sprint · до автоматического ремонта</small></figcaption><video id="transferred" playsinline muted preload="auto" aria-label="Бег после переноса MIL"></video></figure>
+</div>
+<div class="timeline"><output id="status" aria-live="off">Загрузка одинакового окна записи…</output><input id="seek" disabled type="range" min="0" max="240" value="0" step="1" aria-label="Общий кадр сравнения"></div>
+<p class="note">Это запись настоящего ActorView на стенде: бег на месте, четыре секунды, без звука. Она показывает рисунок движения и снаряжение; движение героя по зоне здесь не записано. Новый вариант пока не принят.</p>
+<details><summary>Что подтверждено проверками</summary><p>Для обоих вариантов проверены все исходные кадры, порядок кадров и время видео: 60 кадров/с, без интерполяции. Изображение снято после игровых модификаторов скелета. На паузе можно сравнивать один и тот же момент и двигаться по кадрам.</p><p>У переноса остаются отказы автоматических критериев контакта, фаз и непрерывности. Они не заменяют визуальную оценку. Ремонт не выдал исправленный клип: его внутренний численный порог нельзя считать установленной границей видимого дефекта.</p><p><a href="manifest.json">Данные записи и хеши</a> · <a href="https://github.com/EvAlex/cinderland/pull/42">Эксперимент MIL, PR42</a></p></details>
+</main>
+<script>
+const videos=[document.getElementById('accepted'),document.getElementById('transferred')];
+const play=document.getElementById('play'),gear=document.getElementById('gear'),view=document.getElementById('view'),speed=document.getElementById('speed'),seek=document.getElementById('seek'),status=document.getElementById('status'),back=document.getElementById('back'),next=document.getElementById('next');
+let ready=false,playing=false,epoch=0,busy=false;
+const fps=60,lastFrame=240;
+videos.forEach(v=>{v.muted=true;v.loop=false;});
+function pause(){videos.forEach(v=>v.pause());playing=false;draw();}
+function draw(){const frame=Math.max(0,Math.min(lastFrame,Math.round(videos[0].currentTime*fps)||0));seek.value=frame;status.textContent=ready?`${(frame/fps).toFixed(2).replace('.',',')} с · кадр ${frame+1}/${lastFrame+1} · ${speed.value==='1'?'обычный темп':speed.selectedOptions[0].textContent}`:'Загрузка видео…';play.textContent=!ready?'Загрузка…':playing?'Ⅱ Пауза':frame===lastFrame?'↻ Ещё раз':'▶ Смотреть';}
+function seekTo(frame){pause();const at=Math.max(0,Math.min(lastFrame,frame))/fps;videos.forEach(v=>v.currentTime=at);draw();}
+async function start(){if(!ready||busy)return;if(playing){pause();return;}if(videos[0].ended||videos[0].currentTime>=4)videos.forEach(v=>v.currentTime=0);videos.forEach(v=>v.playbackRate=+speed.value);busy=true;try{await Promise.all(videos.map(v=>v.play()));playing=true;}catch(error){pause();status.textContent='Не удалось воспроизвести видео. Нажмите «Смотреть» ещё раз.';}finally{busy=false;}draw();}
+async function load(){const token=++epoch;pause();ready=false;[play,seek,back,next].forEach(x=>x.disabled=true);draw();try{await Promise.all(videos.map(v=>new Promise((resolve,reject)=>{v.onloadeddata=resolve;v.onerror=()=>reject(new Error('Не удалось загрузить видео'));v.src=`media/${v.id}-${gear.value}-${view.value}.mp4`;v.load();})));if(token!==epoch)return;videos.forEach(v=>{v.currentTime=0;v.playbackRate=+speed.value;});ready=true;[play,seek,back,next].forEach(x=>x.disabled=false);draw();}catch(error){if(token===epoch){play.textContent='Ошибка загрузки';status.textContent='Видео недоступно. Обновите страницу.';}}}
+play.onclick=start;back.onclick=()=>seekTo(Math.round(videos[0].currentTime*fps)-1);next.onclick=()=>seekTo(Math.round(videos[0].currentTime*fps)+1);seek.oninput=()=>seekTo(+seek.value);speed.onchange=()=>{videos.forEach(v=>v.playbackRate=+speed.value);draw();};gear.onchange=load;view.onchange=load;videos.forEach(v=>v.addEventListener('ended',pause));
+document.getElementById('large').onchange=e=>document.querySelector('.pair').style.gridTemplateColumns=e.target.checked?'1fr':'1fr 1fr';
+function tick(){if(ready&&playing){const drift=videos[1].currentTime-videos[0].currentTime;if(Math.abs(drift)>.05)videos[1].currentTime=videos[0].currentTime;}if(ready)draw();requestAnimationFrame(tick);}tick();load();
+</script></html>

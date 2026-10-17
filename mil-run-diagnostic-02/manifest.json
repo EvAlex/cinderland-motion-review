@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "kind": "motion_comparison",
+  "source_digest": "8d356c9b4ae5b03d020826eb2bdfccfe14fa906d7ff46c751abecf815932e647",
+  "candidate_packages": [
+    {
+      "path": "build/mil/adr31-final/free/manifest.json",
+      "sha256": "b29fef3ab0d219ea584f68761ea5343d4f84d8c207b4a10b6bf668d993de8c46"
+    },
+    {
+      "path": "build/mil/adr31-final/sword/manifest.json",
+      "sha256": "9bca4864c1cb23488cce5c37e37b0c01dba18322f68e784fbad9411cc5dd0495"
+    },
+    {
+      "path": "build/mil/adr31-final/shield/manifest.json",
+      "sha256": "525feea3922c6d70f0e0fea65e7d0346d83cadd7e0ab35bc49d67d6191ff496e"
+    }
+  ],
+  "reference": {
+    "path": "build/mil/author-comparison-20261017/manifest.json",
+    "sha256": "1c98477eeef1f74f12cd278e0eb7fe1c1edf7bc417edfe7b43218cc850ed4312"
+  },
+  "reference_status": "historical_component_snapshot",
+  "presentation_status": "ready",
+  "metric_status": "fail",
+  "author_status": "needs_decision",
+  "scope": "Current diagnostic candidate against historical accepted reference; no technical or artistic acceptance inferred.",
+  "media": [
+    {
+      "role": "accepted",
+      "style": "free",
+      "view": "front",
+      "sha256": "aa8eac849246e587a8949f0148abde4ae18adb08d65e16b96de721c24f951eba",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-free-front.mp4"
+    },
+    {
+      "role": "accepted",
+      "style": "free",
+      "view": "side",
+      "sha256": "454b11ddd7bcaa709ad3bffba8285f147eabf0b1c87ff1dd4b0c6adf252467fb",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-free-side.mp4"
+    },
+    {
+      "role": "accepted",
+      "style": "free",
+      "view": "game",
+      "sha256": "2a9a48540b221166ac2374a5b7cf3fa40df940a0e88ec7df3123e32e4ddbec36",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-free-game.mp4"
+    },
+    {
+      "role": "accepted",
+      "style": "sword",
+      "view": "front",
+      "sha256": "961ce7df72cb9950d8a8b8ab6daaaa17e32c108d020caa6256adf6f8a5542269",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-sword-front.mp4"
+    },
+    {
+      "role": "accepted",
+      "style": "sword",
+      "view": "side",
+      "sha256": "aef49d93632804cd45121be233093de9050fb9f789fe5724d0a6dd9187734ebb",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-sword-side.mp4"
+    },
+    {
+      "role": "accepted",
+      "style": "sword",
+      "view": "game",
+      "sha256": "1e4e4eff697395ca1e391bb483bccdc10a94ee1786f9d9e51929e50bfb759ad7",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-sword-game.mp4"
+    },
+    {
+      "role": "accepted",
+      "style": "shield",
+      "view": "front",
+      "sha256": "5afc6392ff005f1e736f4ec674ad4d7286f26dfffca1d7a173d3232670acbb2d",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-shield-front.mp4"
+    },
+    {
+      "role": "accepted",
+      "style": "shield",
+      "view": "side",
+      "sha256": "e4185c7923cbf2cc1abf6af282e4bccff39c51f9c4cb2a80fea7690f9f50dec2",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-shield-side.mp4"
+    },
+    {
+      "role": "accepted",
+      "style": "shield",
+      "view": "game",
+      "sha256": "75ed6db23e02920ca87b497d884b5e33184b822d32948f841f26604b33377a2c",
+      "candidate_sha256": "5bd6e3e592d926a157b59211b847bb3187f08b56623ac82d5fd4dafc7c56b130",
+      "file": "media/accepted-shield-game.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "free",
+      "view": "front",
+      "sha256": "b107cbdf93ff835df94181698d44bd34b330c196567d1df2c2978c06c6fcfe20",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-free-front.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "free",
+      "view": "side",
+      "sha256": "5e4cb668bf83c8bd241b01890d2e5a1f15a3935e6f25e9cb5d1bd08128ec11bb",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-free-side.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "free",
+      "view": "game",
+      "sha256": "3763acbd29d8399e442fb17f22207f1d7ab25a57e80db6a9484de32ce2ad5325",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-free-game.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "sword",
+      "view": "front",
+      "sha256": "0c2237ee8564b85c61c4cc57330a0cba9f2f0863fa2d3e19ecd66de2de65f509",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-sword-front.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "sword",
+      "view": "side",
+      "sha256": "b6f57272321eb8a739b5134d70d2156301af983bb1b81b43e0c16fae4b37d752",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-sword-side.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "sword",
+      "view": "game",
+      "sha256": "7bd01dbba11bf1578f72f2a2787a9ec18c2a5fb981967a801514f78cc0546343",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-sword-game.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "shield",
+      "view": "front",
+      "sha256": "ec759e6d7662199115ba262f787c8d9695f196f952f9da77000772d19a411d8b",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-shield-front.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "shield",
+      "view": "side",
+      "sha256": "3cfffaf3e75d119ab48560f982a055700e34864b4689585dc79629fdf92e63fa",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-shield-side.mp4"
+    },
+    {
+      "role": "transferred",
+      "style": "shield",
+      "view": "game",
+      "sha256": "45eeb7e1bdb51eb97a23d2370f497ae29e767196c129538143416c23a67aeb8d",
+      "candidate_sha256": "d77191cbdb835e5010d9062f3627fe0ea160ef999c0256768f4730248ef2aeaa",
+      "file": "media/transferred-shield-game.mp4"
+    }
+  ],
+  "page_sha256": "30b7becc746f452bc43a7325739ce8de099b8735986bbbdcda8634d97cb3b04b",
+  "input_hashes": {
+    "media/accepted-free-front.mp4": "aa8eac849246e587a8949f0148abde4ae18adb08d65e16b96de721c24f951eba",
+    "media/accepted-free-game.mp4": "2a9a48540b221166ac2374a5b7cf3fa40df940a0e88ec7df3123e32e4ddbec36",
+    "media/accepted-free-side.mp4": "454b11ddd7bcaa709ad3bffba8285f147eabf0b1c87ff1dd4b0c6adf252467fb",
+    "media/accepted-shield-front.mp4": "5afc6392ff005f1e736f4ec674ad4d7286f26dfffca1d7a173d3232670acbb2d",
+    "media/accepted-shield-game.mp4": "75ed6db23e02920ca87b497d884b5e33184b822d32948f841f26604b33377a2c",
+    "media/accepted-shield-side.mp4": "e4185c7923cbf2cc1abf6af282e4bccff39c51f9c4cb2a80fea7690f9f50dec2",
+    "media/accepted-sword-front.mp4": "961ce7df72cb9950d8a8b8ab6daaaa17e32c108d020caa6256adf6f8a5542269",
+    "media/accepted-sword-game.mp4": "1e4e4eff697395ca1e391bb483bccdc10a94ee1786f9d9e51929e50bfb759ad7",
+    "media/accepted-sword-side.mp4": "aef49d93632804cd45121be233093de9050fb9f789fe5724d0a6dd9187734ebb",
+    "media/transferred-free-front.mp4": "b107cbdf93ff835df94181698d44bd34b330c196567d1df2c2978c06c6fcfe20",
+    "media/transferred-free-game.mp4": "3763acbd29d8399e442fb17f22207f1d7ab25a57e80db6a9484de32ce2ad5325",
+    "media/transferred-free-side.mp4": "5e4cb668bf83c8bd241b01890d2e5a1f15a3935e6f25e9cb5d1bd08128ec11bb",
+    "media/transferred-shield-front.mp4": "ec759e6d7662199115ba262f787c8d9695f196f952f9da77000772d19a411d8b",
+    "media/transferred-shield-game.mp4": "45eeb7e1bdb51eb97a23d2370f497ae29e767196c129538143416c23a67aeb8d",
+    "media/transferred-shield-side.mp4": "3cfffaf3e75d119ab48560f982a055700e34864b4689585dc79629fdf92e63fa",
+    "media/transferred-sword-front.mp4": "0c2237ee8564b85c61c4cc57330a0cba9f2f0863fa2d3e19ecd66de2de65f509",
+    "media/transferred-sword-game.mp4": "7bd01dbba11bf1578f72f2a2787a9ec18c2a5fb981967a801514f78cc0546343",
+    "media/transferred-sword-side.mp4": "b6f57272321eb8a739b5134d70d2156301af983bb1b81b43e0c16fae4b37d752"
+  }
+}
